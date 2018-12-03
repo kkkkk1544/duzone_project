@@ -6,33 +6,33 @@
 <tiles:insertDefinition name="basicTemplate">
 <tiles:putAttribute name="content">
 	<!--   
-		ì‘ì„±ì : 
-		ì‘ì„±ì¼ : 
-		ë©”ë‰´ëª… : ê°œì¸ëª©í‘œìŠ¹ì¸
-		ìˆ˜ì •ì : 
-		ìˆ˜ì •ì¼ :
-		ìˆ˜ì •ë‚´ìš© : 
+		ÀÛ¼ºÀÚ : 
+		ÀÛ¼ºÀÏ : 
+		¸Ş´º¸í : °³ÀÎ¸ñÇ¥½ÂÀÎ
+		¼öÁ¤ÀÚ : 
+		¼öÁ¤ÀÏ :
+		¼öÁ¤³»¿ë : 
 	 -->
-    <!-- ë²„íŠ¼ì˜ì—­ ì‹œì‘ -->
+    <!-- ¹öÆ°¿µ¿ª ½ÃÀÛ -->
    	<input type="hidden" id ='no_emp'/>
 	<input type="hidden" id ='nm_user'/>
 	<input type="hidden" id ='nm_dept'/>
 	<input type="hidden" id ='CD_STATE'/>
 	<div class="dews-button-group dews-button-group-primary">
-	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_search">ì¡°íšŒ</button>
-	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_save">ì €ì¥</button>
-	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_app">ìŠ¹ì¸</button>
-	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_deny">ë°˜ë ¤</button>
-	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_cancel">ìŠ¹ì¸ì·¨ì†Œ</button>
+	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_search">Á¶È¸</button>
+	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_save">ÀúÀå</button>
+	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_app">½ÂÀÎ</button>
+	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_deny">¹İ·Á</button>
+	    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_cancel">½ÂÀÎÃë¼Ò</button>
 	</div>
-    <!-- ë²„íŠ¼ì˜ì—­ ë -->
+    <!-- ¹öÆ°¿µ¿ª ³¡ -->
   
-  <!-- ì¡°íšŒì¡°ê±´ ì˜ì—­ -->  
+  <!-- Á¶È¸Á¶°Ç ¿µ¿ª -->  
     <div class="dews-condition-panel div-4">
     	<form class="dews-condition-form">
     		<ul>
     			<li style="width: 24%;">
-           			<label for='ym_evlu' class='required dews-ui-multilingual'>ê¸°ì¤€ë…„ì›”</label> 					
+           			<label for='ym_evlu' class='required dews-ui-multilingual'>±âÁØ³â¿ù</label> 					
 					<span>
 						<select id="ym_evlu" class="dews-ui-dropdownlist" 
 								data-dews-value-field="YM_EVLU" 
@@ -43,7 +43,7 @@
            			
            		</li>
 				<li style="width: 24%;">
-					<label class="dews-ui-multilingual" for="nm_unit">í‰ê°€ë‹¨ìœ„</label>
+					<label class="dews-ui-multilingual" for="nm_unit">Æò°¡´ÜÀ§</label>
 	                <span>
 	                    <select id="nm_unit" class="dews-ui-dropdownlist"
 	                    	data-dews-value-field="CD_SYSDEF" 
@@ -52,7 +52,7 @@
 	                </span>
 				</li> 
 				<li style="width: 24%;">
-	                <label class="dews-ui-multilingual" for="nm_group">í‰ê°€ê·¸ë£¹</label>
+	                <label class="dews-ui-multilingual" for="nm_group">Æò°¡±×·ì</label>
 	                <span>
 	                	<select id='nm_group' class='dews-ui-dropdownlist'
 	                		data-dews-value-field='CD_EVGROUP'
@@ -63,14 +63,14 @@
            		</li>
            		
            		<li style="width: 24%;">
-	                <label class="dews-ui-multilingual" for="category">ìŠ¹ì¸ì—¬ë¶€</label>
+	                <label class="dews-ui-multilingual" for="category">½ÂÀÎ¿©ºÎ</label>
 	                <span>
 	                    <select id="YN_APPROVE" name="YN_APPROVE" class="dews-ui-dropdownlist" >
 <!-- 	                        <option class="dews-ui-multilingual" value="000">000</option> -->
 	                        <option class="dews-ui-multilingual"></option>
-	                        <option class="dews-ui-multilingual" value="100">ì‘ì„±ì¤‘</option>
-	                        <option class="dews-ui-multilingual" value="200">ìŠ¹ì¸ì‹ ì²­</option>
-	                        <option class="dews-ui-multilingual" value="300">ìŠ¹ì¸ì™„ë£Œ</option>
+	                        <option class="dews-ui-multilingual" value="100">ÀÛ¼ºÁß</option>
+	                        <option class="dews-ui-multilingual" value="200">½ÂÀÎ½ÅÃ»</option>
+	                        <option class="dews-ui-multilingual" value="300">½ÂÀÎ¿Ï·á</option>
 <!-- 	                        <option class="dews-ui-multilingual" value="400">400</option> -->
 	                    </select>
 	                </span>
@@ -79,22 +79,22 @@
 			</ul>
     	</form>
     </div> 
-    <!-- ì¡°íšŒì¡°ê±´ ë -->
+    <!-- Á¶È¸Á¶°Ç ³¡ -->
     
-    <!-- ê·¸ë¦¬ë“œ ì˜ì—­ ì‹œì‘ -->
+    <!-- ±×¸®µå ¿µ¿ª ½ÃÀÛ -->
    <div class="dews-grid-panel" style="width:100%;height:100%;">
-   		<!-- ì¢Œì¸¡ -->
+   		<!-- ÁÂÃø -->
 		<div class="dews-grid-panel"id="Module_area" style="float:left;width:31.3%;height:100%;">
 			<div>	
 				<div class="dews-grid-title">
-					<span>í‰ê°€ëŒ€ìƒ</span>
+					<span>Æò°¡´ë»ó</span>
 				</div>
 			</div>
 		    <div class="dews-grid-panel" id="grid_subject_div">
 		        <div id="grid_pipyeong" class="dews-ui-grid"></div>
 		    </div>
 	    </div>
-	    <!-- ìš°ì¸¡ -->
+	    <!-- ¿ìÃø -->
 	    
 		<div class="dews-grid-panel" style="float:right;width:68%;height:100%;margin-left:5px;">
 			<div>	
@@ -106,43 +106,43 @@
 		   		<form class="dews-condition-form"  id='form_ii'>
 		    		<ul>
 		    			<li style="width: 33%;">
-		           			<label class='required dew-ui-multilingual'>ì‘ì„±ì(í”¼í‰ê°€ì)</label>
+		           			<label class='required dew-ui-multilingual'>ÀÛ¼ºÀÚ(ÇÇÆò°¡ÀÚ)</label>
 		           			<span>
 		           				<input class="dews-ui-textbox" style="width: 100%;"  type="text" readonly="readonly" id="NM_KOR" />
 		          			</span>
 		           		</li>
 						<li style="width: 33%;">
-		           			<label class='required dew-ui-multilingual'>ì‘ì„±ì¼ì</label>
+		           			<label class='required dew-ui-multilingual'>ÀÛ¼ºÀÏÀÚ</label>
 		           			<span>
 		           				<input class="dews-ui-textbox dews-ui-maskedtextbox"  data-dews-mask="####/##/##" style="width: 100%;"  type="text" readonly="readonly" id="DT_WRITE" />
 		          			</span>
 		           		</li>
 						<li style="width: 33%;">
-		           			<label class='required dew-ui-multilingual'>ì œì¶œê¸°í•œ</label>
+		           			<label class='required dew-ui-multilingual'>Á¦Ãâ±âÇÑ</label>
 		           			<span>
 		           				<input class="dews-ui-textbox dews-ui-maskedtextbox"  data-dews-mask="####/##/##" style="width: 100%;"  type="text" readonly="readonly" id="DT_LIMIT"/>
 		          			</span>
 		           		</li>
 		           		<li style="width: 33%;">
-		           			<label class='required dew-ui-multilingual'>í•©ì˜ì(í‰ê°€ì)</label>
+		           			<label class='required dew-ui-multilingual'>ÇÕÀÇÀÚ(Æò°¡ÀÚ)</label>
 		           			<span>
 		           				<input class="dews-ui-textbox" style="width: 100%;"  type="text" readonly="readonly" id="NM_TEAM" />
 		          			</span>
 		           		</li>
 						<li style="width: 33%;">
-		           			<label class='required dew-ui-multilingual'>í•©ì˜ì¼ì</label>
+		           			<label class='required dew-ui-multilingual'>ÇÕÀÇÀÏÀÚ</label>
 		           			<span>
 		           				<input class="dews-ui-textbox dews-ui-maskedtextbox"  data-dews-mask="####/##/##" style="width: 100%;"  type="text" readonly="readonly" id="DT_CONSENT" />
 		          			</span>
 		           		</li>
 						<li style="width: 33%;">
-		           			<label class='required dew-ui-multilingual'>ìµœì¢…ìˆ˜ì •ìŠ¹ì¸ì¼</label>
+		           			<label class='required dew-ui-multilingual'>ÃÖÁ¾¼öÁ¤½ÂÀÎÀÏ</label>
 		           			<span>
 		           				<input class="dews-ui-textbox dews-ui-maskedtextbox"  data-dews-mask="####/##/##" style="width: 100%;"  type="text" readonly="readonly" id="DT_CHANGED" />
 		          			</span>
 		           		</li>
 		           		<li style="width: 33%;">
-		           			<label class='required dew-ui-multilingual'>ì§„í–‰ìƒíƒœ</label>
+		           			<label class='required dew-ui-multilingual'>ÁøÇà»óÅÂ</label>
 		           			<span>
 		           				<input class="dews-ui-textbox" style="width: 100%;"  type="text" readonly="readonly" id="NM_STATE"/>
 		          			</span>
@@ -152,26 +152,26 @@
 		   	</div>
 		   	<div class="dews-button-group">
 				<div class="dews-grid-title">
-					<span>ëª©í‘œí•­ëª©</span>
+					<span>¸ñÇ¥Ç×¸ñ</span>
 				</div>
-			    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_file">ì²¨ë¶€íŒŒì¼</button>
+			    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_file">Ã·ºÎÆÄÀÏ</button>
 			</div>
 			<div class="dews-grid-panel">
 				<div id="grid_list" class="dews-ui-grid"></div>
 			</div>
 			<div class="dews-button-group">
 				<div class="dews-grid-title">
-					<span>COMMENT ë‚´ì—­</span>
+					<span>COMMENT ³»¿ª</span>
 				</div>
-			    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_comment_add">ì¶”ê°€</button>
-			    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_comment_del">ì‚­ì œ</button>
+			    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_comment_add">Ãß°¡</button>
+			    <button class="dews-ui-button primary dews-ui-multilingual" id="btn_comment_del">»èÁ¦</button>
 			</div>
 			<div class="dews-grid-panel">
 				<div id="grid_commt" class="dews-ui-grid"></div>
 			</div>
 		</div>	 
 	</div>
-	<!-- ê·¸ë¦¬ë“œ ì˜ì—­ ë -->
+	<!-- ±×¸®µå ¿µ¿ª ³¡ -->
 	<script>
 	var grid, grid_pipyeong, grid_list, grid_commt;
 	
@@ -183,7 +183,7 @@
 	    groupSelect();
 	    
 	    datasource4 = dews.ui.dataSource("dataSource4", {
-        	batch: true,	//ê·¸ë¦¬ë“œ ì €ì¥ì‹œ
+        	batch: true,	//±×¸®µå ÀúÀå½Ã
             schema: {
                 model: {
                     fields: {
@@ -209,34 +209,34 @@
 	           columns: [	
                    {
                     field: "NM_EVGROUP",
-                    title: dews.localize.get("í‰ê°€ê·¸ë£¹"),
+                    title: dews.localize.get("Æò°¡±×·ì"),
                     width: 70,
                     align: "left",
                     editor: dews.ui.grid.editors.readonly
                 },
                 {
                     field: "NM_DUTY_RANK",
-                    title: dews.localize.get("ì§ìœ„"),
+                    title: dews.localize.get("Á÷À§"),
                     width: 70,
                     editor: dews.ui.grid.editors.readonly,
                     align: "left"
                 },
                 {
                     field: "NO_EMP",
-                    title: dews.localize.get("ì‚¬ì›ë²ˆí˜¸"),
+                    title: dews.localize.get("»ç¿ø¹øÈ£"),
                     width: 100,
                     editor: dews.ui.grid.editors.readonly,
                     align: "left"
                 },
                 {
                     field: "NM_KOR",
-                    title: dews.localize.get("ì„±ëª…"),
+                    title: dews.localize.get("¼º¸í"),
                     width: 70,
                     editor: dews.ui.grid.editors.readonly
                 },
                 {
                     field: "NM_STATE",
-                    title: dews.localize.get("ìŠ¹ì¸ì—¬ë¶€"),
+                    title: dews.localize.get("½ÂÀÎ¿©ºÎ"),
                     width: 70,
                     editor: dews.ui.grid.editors.readonly
                 }
@@ -246,9 +246,9 @@
             }
        	 });
 	 	
-        //ëª©í‘œí•­ëª© ê·¸ë¦¬ë“œ
+        //¸ñÇ¥Ç×¸ñ ±×¸®µå
 	    datasource = dews.ui.dataSource("dataSource", {
-        	batch: true,	//ê·¸ë¦¬ë“œ ì €ì¥ì‹œ
+        	batch: true,	//±×¸®µå ÀúÀå½Ã
             schema: {
                 model: {
                     id: "NO_ITEMSEQ",
@@ -267,7 +267,7 @@
             }
         });
         
-        grid = dews.ui.grid("#grid_list", {
+	    grid = dews.ui.grid("#grid_list", {
             dataSource: datasource,
             editable: {	createAt: 'bottom' },
             selectable: "row",
@@ -277,29 +277,29 @@
 	           columns: [	
                    {
                     field: "NM_TASK",
-                    title: dews.localize.get("ê³¼ì—…ëª…"),
+                    title: dews.localize.get("°ú¾÷¸í"),
                     width: 70,
                     align: "left"
                 },
                 {
                     field: "NM_ITEM",
-                    title: dews.localize.get("KPIëª…"),
+                    title: dews.localize.get("KPI¸í"),
                     width: 70
                 },
                 {
                     field: "NUM_ITEMTYPE",
-                    title: dews.localize.get("ë°°ì "),
+                    title: dews.localize.get("ÃÑÁ¡"),
                     width: 40
                 },
                 {
                     field: "NUM_ITEM",
-                    title: dews.localize.get("ê°€ì¤‘ì¹˜"),
+                    title: dews.localize.get("¹èÃ·"),
                     width: 50,
                     editor: function (container, options) {
                         dews.ui.grid.editors.textbox(container, options,
                             function (data) {
                     	
-                                // ì¡°ê±´ì— ë”°ë¥¸ í…ìŠ¤íŠ¸ë°•ìŠ¤ ì¶œë ¥
+                                // Á¶°Ç¿¡ µû¸¥ ÅØ½ºÆ®¹Ú½º Ãâ·Â
                                 if (data.CD_STATE === "000") {
                                     return true;
                                 } else {
@@ -311,14 +311,14 @@
                 },
                 {
                     field: "DC_DEFINATION",
-                    title: dews.localize.get("ì—…ì ëª©í‘œ(KPIì •ì˜)"),
+                    title: dews.localize.get("¾÷Àû¸ñÇ¥(KPIÁ¤ÀÇ)"),
                     width: 90,
                     align: "left",
                     editor: function (container, options) {
                         dews.ui.grid.editors.textbox(container, options,
                             function (data) {
                     	
-                                // ì¡°ê±´ì— ë”°ë¥¸ í…ìŠ¤íŠ¸ë°•ìŠ¤ ì¶œë ¥
+                                // Á¶°Ç¿¡ µû¸¥ ÅØ½ºÆ®¹Ú½º Ãâ·Â
                                 if (data.CD_STATE === "000") {
                                     return true;
                                 } else {
@@ -330,14 +330,14 @@
                 },
                 {
                     field: "DC_PLAN",
-                    title: dews.localize.get("ê³„íš ë° ë‹¬ì„±ìˆ˜ì¤€"),
+                    title: dews.localize.get("°èÈ¹ ¹× ´Ş¼º¼öÁØ"),
                     width: 80,
                     align: "left",
                     editor: function (container, options) {
                         dews.ui.grid.editors.textbox(container, options,
 							function (data) {
 							
-							    // ì¡°ê±´ì— ë”°ë¥¸ í…ìŠ¤íŠ¸ë°•ìŠ¤ ì¶œë ¥
+							    // Á¶°Ç¿¡ µû¸¥ ÅØ½ºÆ®¹Ú½º Ãâ·Â
 							    if (data.CD_STATE === "000") {
 							        return true;
 							    } else {
@@ -349,14 +349,14 @@
                 },
                 {
                     field: "DC_FORMULA",
-                    title: dews.localize.get("í‰ê°€ ë° ë“±ê¸‰ë¶€ì—¬ê¸°ì¤€(KPI ì‚°ì‹)"),
+                    title: dews.localize.get("Æò°¡ ¹× µî±ŞºÎ¿©±âÁØ(KPI »ê½Ä)"),
                     width: 120,
                     align:"left",
                     editor: function (container, options) {
                         dews.ui.grid.editors.textbox(container, options,
                              function (data) {
                      	
-                                 // ì¡°ê±´ì— ë”°ë¥¸ í…ìŠ¤íŠ¸ë°•ìŠ¤ ì¶œë ¥
+                                 // Á¶°Ç¿¡ µû¸¥ ÅØ½ºÆ®¹Ú½º Ãâ·Â
                                  if (data.CD_STATE === "000") {
                                      return true;
                                  } else {
@@ -368,14 +368,14 @@
                 },
                 {
                     field: "DC_RMK",		
-                    title: dews.localize.get("ë¹„ê³ "),
+                    title: dews.localize.get("ºñ°í"),
                     width: 60,
                     attributes: {style:"text-align:left;"},
                     editor: function (container, options) {
                         dews.ui.grid.editors.textbox(container, options,
                              function (data) {
                      	
-                                 // ì¡°ê±´ì— ë”°ë¥¸ í…ìŠ¤íŠ¸ë°•ìŠ¤ ì¶œë ¥
+                                 // Á¶°Ç¿¡ µû¸¥ ÅØ½ºÆ®¹Ú½º Ãâ·Â
                                  if (data.CD_STATE === "000") {
                                      return true;
                                  } else {
@@ -402,15 +402,15 @@
             } 
        	 });
 	            
-	  	//COMMENT ë‚´ì—­
+	  	//COMMENT ³»¿ª
 	     datasource2 = dews.ui.dataSource("dataSource2", {
-	     	batch: true,	//ê·¸ë¦¬ë“œ ì €ì¥ì‹œ
+	     	batch: true,	//±×¸®µå ÀúÀå½Ã
 	         schema: {
 	             model: {
 	                 fields: {
 	                 	DT_COMMT:   { editable: false, type: "string" },
 	                 	NM_EMPCMMT:    	{ editable: false, type: "string" },
-	                 	DC_COMMT:	{ editable: true, type: "string" }//ë³„ì¹­**
+	                 	DC_COMMT:	{ editable: true, type: "string" }//º°Äª**
 	                 }
 	             }
 	         }
@@ -425,13 +425,13 @@
 	          columns: [	
 					{
 					    field: "NM_EMPCMMT",
-					    title: dews.localize.get("ì‘ì„±ì"),
+					    title: dews.localize.get("ÀÛ¼ºÀÚ"),
 					    width: 40,
 					    editor: dews.ui.grid.editors.readonly
 					},
 	                {
 	                  field: "DT_CMMT",
-	                  title: dews.localize.get("ì‘ì„±ì¼ì"),
+	                  title: dews.localize.get("ÀÛ¼ºÀÏÀÚ"),
 	                  width: 70,
 	                  align: "left",
 	                  editor: dews.ui.grid.editors.readonly,
@@ -458,17 +458,17 @@
 	          }
 	     });
 	     
-	     //ë…„ì›”ì¼ ë³€ê²½ì‹œ 
+	     //³â¿ùÀÏ º¯°æ½Ã 
 	     $("#ym_evlu").on("change", function(e){
 			 dews.ui.dropdownlist("#ym_evlu").value(e.target.value);
 			 ym_evlu = e.target.value;
 			 groupSelect();
 		 });
 
-	     //ì €ì¥  
+	     //ÀúÀå  
 	     $('#btn_save').on('click', function (e){
 	    	 if (datasource2.getDirtyDataCount() > 0) {
-	    		 dews.confirm(dews.localize.get("ì €ì¥í•˜ì‹œê² ìŠµë‹ˆê¹Œ?")).yes(function(){
+	    		 dews.confirm(dews.localize.get("ÀúÀåÇÏ½Ã°Ú½À´Ï±î?")).yes(function(){
 	    			 var row = grid.select();
 	    			 var rowData = grid.dataItem(row);
 	    			 
@@ -480,9 +480,9 @@
 	 						},							
 	 						callback: function (result) {
 	 							if (result && result.hasOwnProperty("error")) {
-	 								dews.error(dews.localize.get("ì €ì¥ì´ ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤."));
+	 								dews.error(dews.localize.get("ÀúÀåÀÌ ½ÇÆĞÇÏ¿´½À´Ï´Ù."));
 	 	                        }else{
-	 	                        	dews.alert(dews.localize.get("ì •ìƒì ìœ¼ë¡œ ì €ì¥ë˜ì—ˆìŠµë‹ˆë‹¤.")).done(function(){
+	 	                        	dews.alert(dews.localize.get("Á¤»óÀûÀ¸·Î ÀúÀåµÇ¾ú½À´Ï´Ù.")).done(function(){
 	 	                        		SelectCmmt();
 	 	                        	});  	
 	 	                        }
@@ -499,7 +499,7 @@
 	                 }
 				});
 	    	} else {
-	    		dews.alert(dews.localize.get("ì €ì¥í•  ë‚´ìš©ì´ ì—†ìŠµë‹ˆë‹¤."));
+	    		dews.alert(dews.localize.get("ÀúÀåÇÒ ³»¿ëÀÌ ¾ø½À´Ï´Ù."));
 	    		return false;
 	    	}
 	    });
@@ -508,14 +508,14 @@
 			 groupSelect();
 		});
      
-	    //í‰ê°€ê·¸ë£¹ ì¡°íšŒ
+	    //Æò°¡±×·ì Á¶È¸
 	 	function groupSelect() {
 	 		dews.ajax.data(dews.url.getDataUrl("help_p_whr_z_nham_eva_group", "EvaGroup"),{
         		async : false,
     			data  : {
-    				ym_evlu : dews.ui.dropdownlist("#ym_evlu").value(), // ê¸°ì¤€ë…„ì›”
-    				cd_evtype  : 300, // 1ì°¨ í‰ê°€ì
-    				cd_evunit	: dews.ui.dropdownlist("#nm_unit").value() // í‰ê°€ë‹¨ìœ„
+    				ym_evlu : dews.ui.dropdownlist("#ym_evlu").value(), // ±âÁØ³â¿ù
+    				cd_evtype  : 300, // 1Â÷ Æò°¡ÀÚ
+    				cd_evunit	: dews.ui.dropdownlist("#nm_unit").value() // Æò°¡´ÜÀ§
                 }
         	}).done(function(result){
         		var arr = new Array();
@@ -536,7 +536,7 @@
 	       	});
 	 	}
 
-	    //pageinit ì‹œ ë””í´íŠ¸ë°ì´ë” ì…‹íŒ… commonDataProvider.class-jar
+	    //pageinit ½Ã µğÆúÆ®µ¥ÀÌ´õ ¼ÂÆÃ commonDataProvider.class-jar
 	 	function initPageData(){
 	 		dews.ajax.data(dews.url.getDataUrl("CommonData","getCurrentUser"), { async: false }).done(function (currentUser) {	
 	 			var no_emp = currentUser.NO_EMP;
@@ -564,7 +564,7 @@
  		        	p_no_emp: rowData.NO_EMP
  		        }
  		    }).done(function (result) {
- 		    	//ë¶„ì„ ì‹œê°„í˜•íƒœë¡œ ë³€í™˜ ex> 90ë¶„ ---> 01:30
+ 		    	//ºĞÀ» ½Ã°£ÇüÅÂ·Î º¯È¯ ex> 90ºĞ ---> 01:30
  		    	dews.ui.grid("#grid_commt").dataSource.data(result);
  	   	 	});
 	 	}
@@ -588,7 +588,7 @@
  		        }
  		    }).done(function (result) {
  		    	if(result.length){
- 		    		//ë¶„ì„ ì‹œê°„í˜•íƒœë¡œ ë³€í™˜ ex> 90ë¶„ ---> 01:30
+ 		    		//ºĞÀ» ½Ã°£ÇüÅÂ·Î º¯È¯ ex> 90ºĞ ---> 01:30
 	 		    	clean_input();
 	 		    	$(result).each(function(){					    		
 	 	    				hour =parseInt(this.DY_PROPOSAL/60);
@@ -704,7 +704,7 @@
  		        	yn_approve : yn_approve
  		        }
  		    }).done(function (result) {
- 		    	//ë¶„ì„ ì‹œê°„í˜•íƒœë¡œ ë³€í™˜ ex> 90ë¶„ ---> 01:30
+ 		    	//ºĞÀ» ½Ã°£ÇüÅÂ·Î º¯È¯ ex> 90ºĞ ---> 01:30
  		    	clean_input();
  		 		grid.dataSource.data([]);
  		 		grid_commt.dataSource.data([]);
@@ -735,7 +735,7 @@
 	 		});
 	 	}
 	 	
-	 	//ì²¨ë¶€íŒŒì¼ ë°ì´í„° 
+	 	//Ã·ºÎÆÄÀÏ µ¥ÀÌÅÍ 
 		function fileCheck(no_emp){
 			var ym_evlu = dews.ui.dropdownlist("#ym_evlu").value();
 			var cd_evunit = dews.ui.dropdownlist("#nm_unit").value();
@@ -756,7 +756,7 @@
 	       	})
 		} // END fileCheck
 	
-	 	//COMMENT ë‚´ì—­ ì¶”ê°€
+	 	//COMMENT ³»¿ª Ãß°¡
 	 	$('#btn_comment_add').on('click', function (e){
 	 		var today = new Date();
 	 		var dd = today.getDate();
@@ -783,7 +783,7 @@
 						CD_EVUNIT:rowData.CD_EVUNIT,
 						CD_EVGROUP:rowData.CD_EVGROUP,
 						NO_EMP:$("#no_emp").val(),
-						TP_EVLUATOR:'100'//ì¶”í›„ ìˆ˜ì •
+						TP_EVLUATOR:'100'//ÃßÈÄ ¼öÁ¤
 					});
 			} else {
 				return;
@@ -800,18 +800,18 @@
        	   fileCheck(no_emp);
         }
 	 	
-	 	//COMMENT ë‚´ì—­ ì‚­ì œ
+	 	//COMMENT ³»¿ª »èÁ¦
 	 	$('#btn_comment_del').on('click', function (e){
 			var row = grid_commt.select();
 			grid_commt.removeRow(row);
 	 	});
 	      
-	 	//ì¡°íšŒ
+	 	//Á¶È¸
 	 	$("#btn_search").on("click", function() {
 	 		SelectSubject();
 	 	});
 	 	
-	 	//ë°˜ë ¤
+	 	//¹İ·Á
 	 	$("#btn_deny").on("click", function() {
 	 		var app_row = grid.select();
 	 		var app_rowData = grid.dataItem(app_row);
@@ -821,7 +821,7 @@
 	 		var app_emp = app_rowData.NO_EMP;
 	 			
 	 		if(app_rowData){
-	 			dews.confirm(dews.localize.get("ë°˜ë ¤ í•˜ì‹œê² ìŠµë‹ˆê¹Œ?")).yes(function(){
+	 			dews.confirm(dews.localize.get("¹İ·Á ÇÏ½Ã°Ú½À´Ï±î?")).yes(function(){
 		 			dews.ajax.data( dews.url.getDataUrl("p_whr_z_nham_goal_appr", "app"), {
 		 		        async: false,
 		 		        data:{
@@ -842,9 +842,9 @@
 		                   }
 		 		    }).done(function (result) {
 		 		    	if (result && result.hasOwnProperty("error")) {
-							dews.error(dews.localize.get("ë°˜ë ¤ê°€ ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤."));
+							dews.error(dews.localize.get("¹İ·Á°¡ ½ÇÆĞÇÏ¿´½À´Ï´Ù."));
 		                   }else{
-		                   	dews.alert(dews.localize.get("ì •ìƒì ìœ¼ë¡œ ë°˜ë ¤ë˜ì—ˆìŠµë‹ˆë‹¤.")).done(function(){
+		                   	dews.alert(dews.localize.get("Á¤»óÀûÀ¸·Î ¹İ·ÁµÇ¾ú½À´Ï´Ù.")).done(function(){
 		                   		SelectSubject();
 		                   	});  	
 		                   }
@@ -855,7 +855,7 @@
 	 		}
 	 	});
 	 	
-	 	//ìŠ¹ì¸ì·¨ì†Œ
+	 	//½ÂÀÎÃë¼Ò
 	 	$("#btn_cancel").on("click", function() {
 	 		var app_row = grid.select();
 	 		var app_rowData = grid.dataItem(app_row);
@@ -864,7 +864,7 @@
 	        var cd_evgroup = app_rowData.CD_EVGROUP;
 	 		var app_emp = app_rowData.NO_EMP;
 	 			
-	 		dews.confirm(dews.localize.get("ìŠ¹ì¸ì·¨ì†Œ í•˜ì‹œê² ìŠµë‹ˆê¹Œ?")).yes(function(){
+	 		dews.confirm(dews.localize.get("½ÂÀÎÃë¼Ò ÇÏ½Ã°Ú½À´Ï±î?")).yes(function(){
 	 			dews.ajax.data( dews.url.getDataUrl("p_whr_z_nham_goal_appr", "app"), {
 	 		        async: false,
 	 		        data:{
@@ -885,9 +885,9 @@
 	                   }
 	 		    }).done(function (result) {
 	 		    	if (result && result.hasOwnProperty("error")) {
-						dews.error(dews.localize.get("ìŠ¹ì¸ì·¨ì†Œê°€ ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤."));
+						dews.error(dews.localize.get("½ÂÀÎÃë¼Ò°¡ ½ÇÆĞÇÏ¿´½À´Ï´Ù."));
 	                   }else{
-	                   	dews.alert(dews.localize.get("ì •ìƒì ìœ¼ë¡œ ìŠ¹ì¸ì·¨ì†Œë˜ì—ˆìŠµë‹ˆë‹¤.")).done(function(){
+	                   	dews.alert(dews.localize.get("Á¤»óÀûÀ¸·Î ½ÂÀÎÃë¼ÒµÇ¾ú½À´Ï´Ù.")).done(function(){
 	                   		SelectSubject();
 	                   	});  	
 	                   }
@@ -897,10 +897,10 @@
 	 		});
 	 	});
 	 	
-	 	//ìŠ¹ì¸
+	 	//½ÂÀÎ
 	 	$("#btn_app").on("click", function() {
 	 		if (datasource2.getDirtyDataCount() > 0) {
-	 			dews.error(dews.localize.get("ë³€ê²½ì‚¬í•­ì´ ìˆìŠµë‹ˆë‹¤. ì €ì¥ì„ ë¨¼ì € ì‹¤í–‰ í›„ ì´ìš© í•˜ì‹œê¸° ë°”ëë‹ˆë‹¤."));
+	 			dews.error(dews.localize.get("º¯°æ»çÇ×ÀÌ ÀÖ½À´Ï´Ù. ÀúÀåÀ» ¸ÕÀú ½ÇÇà ÈÄ ÀÌ¿ë ÇÏ½Ã±â ¹Ù¶ø´Ï´Ù."));
 	 			
 	 			return false;
 	 		}
@@ -918,7 +918,7 @@
  		        	app_emp :	app_emp
  		        };
 	 		
-	 		dews.confirm(dews.localize.get("ìŠ¹ì¸ í•˜ì‹œê² ìŠµë‹ˆê¹Œ?")).yes(function(){
+	 		dews.confirm(dews.localize.get("½ÂÀÎ ÇÏ½Ã°Ú½À´Ï±î?")).yes(function(){
 	 			dews.ajax.data( dews.url.getDataUrl("p_whr_z_nham_goal_appr", "app"), {
 	 		        async: false,
 	 		        data:{
@@ -939,9 +939,9 @@
 	                   }
 	 		    }).done(function (result) {
 	 		    	if (result && result.hasOwnProperty("error")) {
-						dews.error(dews.localize.get("ìŠ¹ì¸ì´ ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤."));
+						dews.error(dews.localize.get("½ÂÀÎÀÌ ½ÇÆĞÇÏ¿´½À´Ï´Ù."));
 	                   }else{
-	                   	dews.alert(dews.localize.get("ì •ìƒì ìœ¼ë¡œ ìŠ¹ì¸ë˜ì—ˆìŠµë‹ˆë‹¤.")).done(function(){
+	                   	dews.alert(dews.localize.get("Á¤»óÀûÀ¸·Î ½ÂÀÎµÇ¾ú½À´Ï´Ù.")).done(function(){
 	                   		SelectSubject();
 	                   	});  	
 	                   }
@@ -951,7 +951,7 @@
 	 		});
 	 	});
 		
-	 	//ì—…ë¡œë“œ
+	 	//¾÷·Îµå
 		$("#btn_file").on("click", function(){
 			var row = grid.select();
 		    var rowData = grid.dataItem(row);	
@@ -960,7 +960,7 @@
 		    
 	    	if(rowData){
 	    		var initData = {
-    				pIdMenu: "p_whr_z_nham_goal_reg",   //êµ¬ë¶„ì ì¤˜ì„œ ê·¸ëƒ¥ ì“°ë©´ ë ë“¯í•©ë‹ˆë‹¤.
+    				pIdMenu: "p_whr_z_nham_goal_reg",   //±¸ºĞÀÚ Áà¼­ ±×³É ¾²¸é µÉµíÇÕ´Ï´Ù.
     				pFilePath: "",
 					pCdFile: rowData.YM_EVLU + "_" + rowData.CD_EVUNIT + "_" + rowData.CD_EVGROUP + "_" + rowData.NO_EMP + "_0",		
 					params: {
@@ -970,7 +970,7 @@
 	    		
 	    		var dialog= dews.ui.dialog('p_whr_z_nham_file_attach_pop', {
 					url: "~/p_whr_z_nham_file_attach_pop",
-					title: "ì²¨ë¶€íŒŒì¼ ì—…ë‹¤ìš´ë¡œë“œ",
+					title: "Ã·ºÎÆÄÀÏ ¾÷´Ù¿î·Îµå",
 					width: 800,
 					height: 300,
 					ifram: true,
@@ -994,4 +994,3 @@
 		</script>
 </tiles:putAttribute>
 </tiles:insertDefinition>
-
